@@ -1,0 +1,17 @@
+.save_task {
+    width: 60%;
+    margin-left: 20%;
+    height: 50px;
+    background: #242b2e;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 0;
+}
+
+.save_task.active{
+    background: blue;
+    color: #000;
+}
